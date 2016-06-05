@@ -1,0 +1,12 @@
+{
+	"name": "connect-four",
+	"version": "0.0.0",
+	"description": "Connect four game",
+	"devDependencies": {
+		"intern": "^3.1.1"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/intern-runner config=tests/intern"
+	},
+	"author": "Brian Weiser"
+}

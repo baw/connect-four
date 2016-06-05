@@ -1,0 +1,120 @@
+.board {
+	display: inline-block;
+}
+
+.column {
+	display: inline-block;
+	background-color: black;
+}
+
+.position {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	animation-timing-function: ease;
+}
+
+.position.background {
+	position: absolute;
+	background-color: white;
+	outline: 1px solid black;
+}
+@keyframes dropin-0 {
+	from {
+		top: -40px
+	}
+
+	to {
+		top: 0px;
+	}
+}
+
+@keyframes dropin-1 {
+	from {
+		top: -60px
+	}
+
+	to {
+		top: 0px;
+	}
+}
+
+@keyframes dropin-2 {
+	from {
+		top: -80px
+	}
+
+	to {
+		top: 0px;
+	}
+}
+
+@keyframes dropin-3 {
+	from {
+		top: -100px
+	}
+
+	to {
+		top: 0px;
+	}
+}
+
+@keyframes dropin-4 {
+	from {
+		top: -120px
+	}
+
+	to {
+		top: 0px;
+	}
+}
+
+@keyframes dropin-5 {
+	from {
+		top: -140px
+	}
+
+	to {
+		top: 0px;
+	}
+}
+
+.position.player-1 {
+	background-color: blue;
+}
+
+.position.player-2 {
+	background-color: red;
+}
+
+.position.position-0 {
+	animation-duration: 0.4s;
+	animation-name: dropin-0;
+}
+
+.position.position-1 {
+	animation-duration: 0.8s;
+	animation-name: dropin-1;
+}
+
+.position.position-2 {
+	animation-duration: 1.2s;
+	animation-name: dropin-2;
+}
+
+.position.position-3 {
+	animation-duration: 1.6s;
+	animation-name: dropin-3;
+}
+
+.position.position-4 {
+	animation-duration: 2s;
+	animation-name: dropin-4;
+}
+
+.position.position-5 {
+	animation-duration: 2.4s;
+	animation-name: dropin-5;
+}
